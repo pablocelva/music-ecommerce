@@ -14,7 +14,7 @@ function App() {
   return (
     // 2. Envolver todo el BrowserRouter con CartProvider
     <CartProvider>
-      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <BrowserRouter>
         <div className="flex flex-col min-h-screen">
           <NavBar className="bg-blue-900" />
           
